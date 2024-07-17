@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - run: sam build --use-container
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --guided --stack-name sam-hello-world --s3-bucket CadastrarSneakers --capabilities CAPABILITY_IAM --region us-east-1
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --guided  --s3-bucket CadastrarSneakers --capabilities CAPABILITY_IAM --region us-east-1
