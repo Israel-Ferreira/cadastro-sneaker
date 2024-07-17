@@ -21,6 +21,3 @@ jobs:
 
       - run: sam build --use-container
       - run: sam deploy
-
-      
-                  
