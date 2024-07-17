@@ -8,7 +8,6 @@ from requests_toolbelt.multipart import decoder
 
 
 
-
 def get_filename_from_b64_decoded_str(b64_decoded_str):
     """
     Função copiada do artigo do Medium: https://fabaraujo23.medium.com/upload-de-xls-xlsx-utilizando-lambda-s3-python-e-localstack-ca653e0ff27b
