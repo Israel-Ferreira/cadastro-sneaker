@@ -15,7 +15,6 @@ def lambda_handler(event, context):
 
         body =  json.loads(event['body'])
 
-
         if 'model' not in body or body['model'] is None or body['model'] == "":
             raise Exception("O Campo model deve estar preenchido")
         
